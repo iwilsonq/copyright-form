@@ -19,10 +19,11 @@
   },
   "homepage": "https://github.com/iwilsonq/react-boiler#readme",
   "dependencies": {
+    "axios": "^0.15.3",
     "express": "^4.14.0",
+    "nodemon": "^1.11.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "nodemon": "^1.11.0"
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
