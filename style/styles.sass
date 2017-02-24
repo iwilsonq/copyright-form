@@ -1,20 +1,26 @@
 html, body
   padding: 0
   margin: 0
-  font-family: 'Roboto', sans-serif
+  font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif
 
 input
   margin: 5px 0px
   padding: 5px 10px
-  border-radius: 5px
+  border-radius: 2px
   border: 1px solid rgba(0,0,0,0.3)
+  &:focus
+    outline: none
+    box-shadow: inset 0 0 1px rgba(23,170,28,.5)
 
 select
   margin: 5px 0px
   padding: 5px 10px
   width: 300px
-  border-radius: 5px
+  border-radius: 2px
   border: 1px solid rgba(0,0,0,0.3)
+  &:focus
+    outline: none
+    box-shadow: inset 0 0 1px rgba(23,170,28,.5)
 
 textarea
   max-width: 1000px
@@ -22,9 +28,12 @@ textarea
   min-height: 100px
   margin: 5px 0px
   padding: 5px 10px
-  border-radius: 5px
+  border-radius: 2px
   border: 1px solid rgba(0,0,0,0.3)
   resize: none
+  &:focus
+    outline: none
+    box-shadow: inset 0 0 1px rgba(23,170,28,.5)
 
 
 .header
